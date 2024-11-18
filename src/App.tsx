@@ -5,6 +5,9 @@ function App() {
     <>
       <div>{window.navigator.userAgent}</div>
       <button onClick={() => window.open("https://example.com", "_blank")}>
+        Open Safari(s)
+      </button>
+      <button onClick={() => window.open("http://example.com", "_blank")}>
         Open Safari
       </button>
       <button onClick={() => window.open("googlechromes://example.com", "_blank")}>
