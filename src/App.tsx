@@ -7,7 +7,7 @@ function App() {
       <button onClick={() => window.open("https://example.com", "_blank")}>
         Open Safari
       </button>
-      <button onClick={() => window.open("  ://example.com", "_blank")}>
+      <button onClick={() => window.open("googlechromes://example.com", "_blank")}>
         Open Chrome(googlechromes)
       </button>
     </>
