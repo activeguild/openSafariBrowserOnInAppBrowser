@@ -16,6 +16,9 @@ function App() {
       <button onClick={() => window.open("googlechromes://example.com", "_blank")}>
         Open Chrome(googlechromes)
       </button>
+      <button onClick={() => window.open("https://apps.apple.com/jp/app/safari/id1146562112", "_blank")}>
+        Safari Install
+      </button>
     </>
   );
 }
